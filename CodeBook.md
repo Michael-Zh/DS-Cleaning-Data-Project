@@ -5,21 +5,18 @@ This is a code book that describes the variables, the data, and any transformati
 
 ### The data source
 #### Quote from the original dataset
-==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-==================================================================
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universit‡ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==================================================================
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
-==================================================================
 
-Note from Michael:
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
+#### Note from Michael:
 I used following original files to create this project:
 * 'features.txt': List of all features.
 * 'activity_labels.txt': Links the class labels with their activity name.
@@ -45,13 +42,13 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector for each pattern:  
-'mean' is used to denote the mean of a certain feature.
-'std' is used to denote the standard deviation of a certain feature.
-'XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+* 'mean' is used to denote the mean of a certain feature.
+* 'std' is used to denote the standard deviation of a certain feature.
+* 'XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 Additionally:
-'Activitiy' denotes the acitivity from which the signal is devrived.
-'Subject' denotes the subject who performed certain activity.
+* 'Activitiy' denotes the acitivity from which the signal is devrived.
+* 'Subject' denotes the subject who performed certain activity.
 
 List of all variables
  [1] "Activity"                 "Subject"                  "tBodyAccMeanX"           
