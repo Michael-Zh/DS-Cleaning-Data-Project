@@ -28,7 +28,7 @@ Requirement 2: Extracts only the mean and std of each measurements
 * Select needed columns
 
 Requirement 3: Uses desriptive variable names
-* remove "()"，capitalize M and S, remove "-" in column names
+* Remove "()"，capitalize M and S, remove "-" in column names
 
 Requirement 4: Uses descriptive activity names
 * Add activity and subject label
@@ -38,4 +38,4 @@ Requirement 4: Uses descriptive activity names
 Requirement 5: Create a data set with the average of each variable for each activity and each subject
 * Create a data frame structured as the expected result and name the columns
 * Loop by the subject and activity and calculate the column mean respectively, then fill in the designated cell in the data frame
-* write out the 2nd dataset
+* Write out the 2nd dataset
