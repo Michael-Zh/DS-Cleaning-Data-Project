@@ -71,6 +71,7 @@ List of all variables
 [52] "fBodyAccJerkStdX"         "fBodyAccJerkStdY"         "fBodyAccJerkStdZ"        
 [55] "fBodyGyroMeanX"           "fBodyGyroMeanY"           "fBodyGyroMeanZ"          
 [58] "fBodyGyroStdX"            "fBodyGyroStdY"            "fBodyGyroStdZ"           
-[61] "fBodyAccMagMean"          "fBodyAccMagStd"           "fBodyBodyAccJerkMagMean" 
+[61] "fBodyAccMagMean"          "fBodyAccMagStd"           "fBodyBodyAccJerkMagMean"
+
 [64] "fBodyBodyAccJerkMagStd"   "fBodyBodyGyroMagMean"     "fBodyBodyGyroMagStd"     
 [67] "fBodyBodyGyroJerkMagMean" "fBodyBodyGyroJerkMagStd" 
